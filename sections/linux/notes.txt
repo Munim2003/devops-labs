@@ -1,4 +1,5 @@
 [vagrant@vbox ~]$ cd /tmp
+
 [vagrant@vbox tmp]$
 [vagrant@vbox tmp]$ cp /home/vagrant/devopsfile2.txt /home/vagrant/dev
 [vagrant@vbox tmp]$ ls
@@ -381,4 +382,142 @@ devopsfile3.txt   devopsfile7.txt  testfile1.txt
    70  cd ~
    71  history
 [vagrant@vbox ~]$ exit
+    1  clear
+    2  whoami
+    3  pwd
+    4  sudo -i
+    5  exit
+    6  /root
+    7  ls
+    8  cd /
+    9  ls
+   10  cat /etc/os-release
+   11  cd /etc
+   12  ls
+   13  cat grub2.cfg
+   14  cat issue
+   15  whoami
+   16  sudo -i
+   17  whoami
+   18  ls
+   19  cd /
+   20  cd ..
+   21  cd /root
+   22  /root
+   23  cd /
+   24  exit
+   25  ls
+   26  pwd
+   27  mkdir dev
+   28  mkdir ops backupdir
+   29  ls
+   30  pwd
+   31  touch testfile1.txt
+   32  ls
+   33   touch devopsfile{1..10}.txt
+   34  ls
+   35  cp devopsfile1.txt dev/
+   36  ls dev/
+   37  cd /tmp/
+   38  ls /home/vagrant/dev
+   39  cd
+   40  clear
+   41  cd /tmp
+   42  cp /home/vagrant/devopsfile2.txt /home/vagrant/dev
+   43  ls
+   44  cd ~
+   45  pwd
+   46  cp -r dev backupdir
+   47  ls
+   48  ls backupdir
+   49  ls dev
+   50  cp --help
+   51  pwd
+   52  ls
+   53  mv devopsfile4.txt ops
+   54  ls ops
+   55  mkdir textdir
+   56  mv *.txt textdir
+   57  ls textdir
+   58  ls
+   59  rm dev
+   60  rm -r dev
+   61  rm textdir/devopsfile1.txt
+   62  ls textdir
+   63  cd textdir
+   64  ls
+   65  rm -rf *
+   66  ls
+   67  /home
+   68  cd /home
+   69  /home
+   70  cd ~
+   71  history
+   72  exit
+   73  whoami
+   74  cat etc/os-release
+   75  cat /etc/os-release
+   76  sudo yum install vim -y
+   77  ls
+   78  vim firstfile.txt
+   79  cat firstfile.txt
+   80  vim firstfile.txt
+   81  cat firstfile.txt
+   82  sudo -i
+   83  logout
+   84  hostname
+   85  ls -ltr /etc
+   86  history
+[vagrant@centos ~]$ logout
+
+    1  whoami
+    2  exit
+    3  pwd
+    4  ls
+    5  cat anacondo-ks.cfg
+    6  cat /anaconda-ks.cfg
+    7  cat anaconda-ks.cfg
+    8  vim anaconda-ks.cfg
+    9  whoami
+   10  ls -l
+   11  mkdir devopsdir
+   12  ls
+   13  ls -l
+   14  file anaconda-ks.cfg
+   15  /bin
+   16  cd /bin
+   17  ls
+   18  ls -l
+   19  file yum
+   20  file zdump
+   21  cd
+   22  ls -l
+   23  whoami
+   24  cd /dev
+   25  ls -l
+   26  cd
+   27  pwd
+   28  ls
+   29  mkdir /opt/dev/ops/devops/test
+   30  mkdir -p /opt/dev/ops/devops/test
+   31  ls
+   32  vim /opt/dev/ops/devops/test/commands
+   33  ln -s /opt/dev/ops/devops/test/commands
+   34  cat /opt/dev/ops/devops/test/commands
+   35  ln -s /opt/dev/ops/devops/test/commands cmd
+   36  ls -l
+   37  rm cmd
+   38  ls
+   39  ls -l
+   40  rm cmd
+   41  ls
+   42  ls -l
+   43  ls ltr /etc
+   44  ls -ltr /etc
+   45  ls /etc/hostname
+   46  ls -l /etc/hostname
+   47  vim /etc/hostname
+   48  hostname centos7.devops.in
+   49  logout
+   50  history
 logout
