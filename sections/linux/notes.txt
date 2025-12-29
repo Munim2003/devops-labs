@@ -520,4 +520,166 @@ devopsfile3.txt   devopsfile7.txt  testfile1.txt
    48  hostname centos7.devops.in
    49  logout
    50  history
+    61  echo 'export HISTCONTROL=ignoreboth:erasedups' >> ~/.bashrc
+   62  echo 'export HISTSIZE=10000' >> ~/.bashrc
+   63  echo 'export HISTFILESIZE=20000' >> ~/.bashrc
+   64  echo 'shopt -s histappend' >> ~/.bashrc
+   65  echo 'PROMPT_COMMAND="history -a; history -n"' >> ~/.bashrc
+   66  source ~/.bashrc
+   67  history -n
+   68  history -a
+   69  history -w
+   70  history -w
+   71  historu
+   72  history
+   73  date
+   74  clear
+   75  history
+   76  clear
+   77  exit
+   78  clear
+   79  cd /var/log
+   80  tail -f yum.log
+   81  ls
+   82  tail -f wtmp
+   83  history
+   84  ls
+   85  less anaconda-ks.cfg
+   86  more anaconda-ks.cfg
+   87  less
+   88  less anaconda-ks.cfg
+   89  tail anaconda-ks.cfg
+   90  head 3 anacondakes.cfg
+   91  head 3 anaconda-ks.cfg
+   92  tail 3 anaconda-ks.cfg
+   93  tail -f anaconda-ks.cfg
+   94  tail -f /var/log/messages
+   95  cat etc/passwd
+   96  cat /etc/passwd
+   97  cut -d: -f -f1 /etc/passwd
+   98  cut -d: -f2 /etc/passwd
+   99  cut -d: -f1 /etc/passwd
+  100  awk -F':' '{print $1}' /etc/passwd
+  101  touch test.txt
+  102  ls
+  103  vim test.txt
+  104  cat test.txt
+  105  vim test.txt
+  106  cat test.txt
+  107  cat 's/coronavirus/covid19/g' *
+  108  sed 's/coronavirus/covid19/g'
+  109  history
+  110  uptime
+  111  uptime > /tmp/sysinfo.txt
+  112  ls
+  113  /tmp/sysinfo.txt
+  114  cat /tmp/sysinfo.txt
+  115  free -m
+  116  df -h
+  117  echo "Good Morning"
+  118  echo "############################" > /tmp/sysinfo.txt
+  119  date > /tmp/sysinfo.txt
+  120  echo date > /tmp/sysinfo.txt
+  121  echo "############################" >> /tmp/sysinfo.txt
+  122  uptime >> /tmp/sysinfo.txt
+  123  echo "############################" > /tmp/sysinfo.txt
+  124  df -h >> /tmp/sysinfo.txt
+  125  echo "############################" > /tmp/sysinfo.txt
+  126  free -m >> /tmp/sysinfo.txt
+  127  cat /tmp/sysinfo.txt
+  128  date > /tmp/sysinfo.txt
+  129  echo "############################" > /tmp/sysinfo.txt
+  130  echo "############################" >> /tmp/sysinfo.txt
+  131  date > /tmp/sysinfo.txt
+  132  echo "############################" >> /tmp/sysinfo.txt
+  133  uptime >> /tmp/sysinfo.txt
+  134  echo "############################" >> /tmp/sysinfo.txt
+  135  free -m >> /tmp/sysinfo.txt
+  136  echo "############################" >> /tmp/sysinfo.txt
+  137  df -h >> /tmp/sysinfo.txt
+  138  echo "############################" >> /tmp/sysinfo.txt
+  139  cat /tmp/sysinfo.txt
+  140  cat /dev/null
+  141  ls /dev/null
+  142  cat /tmp/sysinfo.txt
+  143  /tmp/sysinfo.txt > /dev/null
+  144  cat /tmp/sysinfo.txt > /dev/null
+  145  cat /tmp/sysinfo.txt
+  146  cat /dev/null
+  147  free -m >> /tmp/sysinfo.txt
+  148  cat /tmp/sysinfo.txt
+  149  freee -m >> /tmp/sysinfo.txt
+  150  freee -m 2>> /tmp/sysinfo.txt
+  151  cat /tmp/sysinfo.txt
+  152  free -m &>> /tmp/sysinfo.txt
+  153  cat /tmp/sysinfo.txt
+  154  history
+  155  clear
+  156  wc -l /etc/passwd
+  157  wc -l < /etc/passwd
+  158  cd /etc/
+  159  ls
+  160  clear
+  161  ls | wc -l
+  162  ls | grep host
+  163  tail /var/log/messages | grep -i vagrant
+  164  tail -20 /var/log/messages | grep -i vagrant
+  165  cat /var/log/messages
+  166  tail -20 /var/log/messages | grep -i bound
+  167  free -m | grep Mem
+  168  clear
+  169  cd
+  170  whoami
+  171  find /etc -name host*
+  172  clear
+  173  history
+  174  clear
+  175  history
+  176  Mem
+  177  grep mem
+  178  whoami
+  179  cat /etc/passwd
+  180  head -1 /etc/passwd
+  181  grep vagrant etc/passwd
+  182  grep vagrant /etc/passwd
+  183  cat /etc/passwd
+  184  /etc/shadow
+  185  sudo cat /etc/shadow
+  186  grep vagrant /etc/passwd
+  187  id vagrant
+  188  useradd ansible
+  189  useradd jenkins
+  190  useradd aws
+  191  tail -4 /etc/passwd
+  192  id ansible
+  193  group ansible
+  194  groupadd devops
+  195  clear
+  196  usermod -aG devops ansible
+  197  id ansible
+  198  vim /etc/group
+  199  id jenkins
+  200  id aws
+  201  passwd ansible
+  202  passwd ansible
+  203  clear
+  204  history
+  205  clear
+  206  userdel aws
+  207  ls
+  208  ls /home
+  209  userdel -r aws
+  210  userdel -r jenkins
+  211  ls /home
+  212  groupdel devops
+  213  userdel -r ansible
+  214  rm rf /home/aws
+  215  ls
+  216  ls /home
+  217  rm rf /home/aws
+  218  rm -rf /home/aws
+  219  ls /home/aws
+  220  ls /home
+  221  history
+
 logout
