@@ -682,4 +682,58 @@ devopsfile3.txt   devopsfile7.txt  testfile1.txt
   220  ls /home
   221  history
 
+ 225  mkdir /opt/devopsdir
+  226  ls -l /opt
+  227  clear
+  228  ls -l /opt
+  229  groupadd devops
+  230  useradd ansible
+  231  deluser ansible
+  232  userdel ansible
+  233  cut -d: f1/etc/passwd
+  234  cut -d: -f1 /etc/passwd
+  235  useradd jenkins
+  236  useradd aws
+  237  vim /etc/group
+  238  id ansible
+  239  ls -ld /opt/devopsdir
+  240  ls -l /opt/devopsdir
+  241  ls -ld /opt/devopsdir
+  242  cat etc/passwd
+  243  cat /etc/passwd
+  244  ls -ld /opt/devopsdir
+  245  chown ansible:devops /opt/devopsdir
+  246  ls -ld /opt/devopsdir
+  247  chmod o-x /opt/devopsdir
+  248  chmod o-r /opt/devopsdir
+  249  chmod g+r /opt/devopsdir
+  250  ls -ld /opt/devopsdir
+  251  su - miles
+  252  su - aws
+  253  ls /etx
+  254  ls /etc
+  255  cat /etc/group
+  256  ls -ld /opt/devopsdir
+  257  chmod g-r /opt/devopsdir
+  258  su - aws
+  259  mkdir /opt/webdata
+  260  ls -ld /opt/webdata
+  261  chown aws.devops /opt/webdata
+  262  chmod 770 /opt/webdata
+  263  ls -ld /opt/webdata
+  264  sudo - aws
+  265  sudo passwd ansible
+  266  su - ansible
+  267  clear
+  268  visudo
+  269  ls -l /etc/sudoers
+  270  visudo
+  271  NOPASSWD: ALL
+  272  history
+  273  clear
+  274  ls -l /etc/sudoers
+  275  visudo
+  276  clear
+  277  history
+
 logout
